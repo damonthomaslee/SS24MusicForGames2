@@ -478,8 +478,12 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Bank A
+  - Bank B
+  - Bank C
   - LeeMusic
   - LeeSFX
+  - Noise
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
