@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{85d549e5-c0c1-4ed6-9bcb-789768c7c246}">
+		<property name="name">
+			<value>Marimba</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f4359f79-1f3b-4c4d-a925-52058696e964}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e1acfd02-9846-40d8-8196-5ba1d225a06a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e1acfd02-9846-40d8-8196-5ba1d225a06a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

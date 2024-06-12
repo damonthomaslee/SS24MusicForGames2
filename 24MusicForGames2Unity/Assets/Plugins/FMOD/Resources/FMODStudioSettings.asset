@@ -478,6 +478,9 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Bank A
+  - Bank B
+  - Bank C
   - LeeMusic
   - LeeSFX
   BanksToLoad: []
