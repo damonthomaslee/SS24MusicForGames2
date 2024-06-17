@@ -13,8 +13,6 @@ public class AIHelper : MonoBehaviour
     public float idleSpeed = 2f;
     public float triggerRadius = 20f;
 
-    public int directionChange = 300;
-
     public bool followingTarget = false;
 
     public float moveInterval;
@@ -30,6 +28,9 @@ public class AIHelper : MonoBehaviour
         moveInterval = 3f;
         rb = GetComponent<Rigidbody>();
         attackers = GameObject.FindGameObjectsWithTag("Attacker");
+        followSpeed = Random.Range(4f, 10f);
+        idleSpeed = Random.Range(1.5f, 3f);
+        triggerRadius = Random.Range(10f, 30f);
     }
 
     // Update is called once per frame
@@ -80,12 +81,25 @@ public class AIHelper : MonoBehaviour
         if (collision.gameObject.tag == "Attacker")
         {
             collision.gameObject.tag = "Untagged";
+            EventInstance killEvent = RuntimeManager.CreateInstance("event:/Florian/Kill");
+            RuntimeManager.AttachInstanceToGameObject(killEvent, gameObject.transform);
+            killEvent.start();
+            killEvent.release();
             Destroy(collision.gameObject);
 
             foreach (GameObject helper in GameObject.FindGameObjectsWithTag("Helper")) {
                 helper.GetComponent<AIHelper>().attackers = GameObject.FindGameObjectsWithTag("Attacker");
             }
+
+            StartCoroutine(SpeedCooldown());
         }
+    }
+
+    IEnumerator SpeedCooldown()
+    {
+        idleSpeed *= 2;
+        yield return new WaitForSeconds(Random.Range(5f, 10f));
+        idleSpeed /= 2;
     }
 
 }

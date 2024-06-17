@@ -8,11 +8,10 @@ public class AIAgent : MonoBehaviour
 {
 
     public Vector3 target;
+
     public float followSpeed = 4f;
     public float idleSpeed = 2f;
     public float triggerRadius = 20f;
-
-    public int directionChange = 300;
 
     public bool followingPlayer = false;
 
@@ -31,7 +30,9 @@ public class AIAgent : MonoBehaviour
         moveInterval = 3f;
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player");
-        //RuntimeManager.AttachInstanceToGameObject(targetingEvent, gameObject.transform);
+        followSpeed = Random.Range(3f, 5f);
+        idleSpeed = Random.Range(2.5f, 4f);
+        triggerRadius = Random.Range(8f, 20f);
     }
 
     // Update is called once per frame
