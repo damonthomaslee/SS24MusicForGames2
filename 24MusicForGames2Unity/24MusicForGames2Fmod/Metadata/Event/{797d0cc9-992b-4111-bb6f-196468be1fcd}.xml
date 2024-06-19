@@ -41,6 +41,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d90b3a05-cbfd-4176-96d5-1f37e96b1bc4}">
+		<relationship name="automationTracks">
+			<destination>{62d7b0c3-433d-4079-8cee-6dbbe07d9a68}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{4354190f-c4d6-4590-bc58-b1607bed4c3c}</destination>
 			<destination>{59331e9b-38cc-4741-bd61-8747b42cad62}</destination>
@@ -93,6 +96,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{ac633baf-cc40-4488-a412-05e95865a30c}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{62d7b0c3-433d-4079-8cee-6dbbe07d9a68}">
+		<relationship name="automator">
+			<destination>{862c4b64-2258-4a94-bf46-c5e44471953b}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{4354190f-c4d6-4590-bc58-b1607bed4c3c}">
@@ -451,7 +459,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-46</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.161809027</value>
@@ -462,7 +470,7 @@
 			<value>41</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-80</value>
 		</property>
 	</object>
 </objects>
