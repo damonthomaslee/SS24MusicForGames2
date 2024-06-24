@@ -8,7 +8,7 @@ public class SimpleDoorTrigger : MonoBehaviour
 {
     public string sceneName; // Name of the scene to load
     public EventReference sfx; // FMOD Event Reference for the door's sound effect
-    public CinemachineFadeController fadeController; // Reference to the CinemachineFadeController
+    public FadeUIController fadeController; // Reference to the FadeUIController
     public float fadeDuration = 1f; // Duration of the fade effect
 
     private void OnTriggerEnter(Collider other)
