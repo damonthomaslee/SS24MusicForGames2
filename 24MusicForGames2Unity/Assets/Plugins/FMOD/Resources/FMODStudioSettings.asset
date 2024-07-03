@@ -481,6 +481,7 @@ MonoBehaviour:
   - Bank A
   - Bank B
   - Bank C
+  - CajusMaster
   - LeeMusic
   - LeeSFX
   BanksToLoad: []
