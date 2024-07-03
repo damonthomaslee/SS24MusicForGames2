@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Tile
+  - Door
   layers:
   - Default
   - TransparentFX

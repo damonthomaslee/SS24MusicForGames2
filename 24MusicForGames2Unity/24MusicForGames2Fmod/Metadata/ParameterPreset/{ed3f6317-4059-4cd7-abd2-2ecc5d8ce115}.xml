@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ed3f6317-4059-4cd7-abd2-2ecc5d8ce115}">
+		<property name="name">
+			<value>LeeDistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f4359f79-1f3b-4c4d-a925-52058696e964}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{dd19b626-dbf4-4f7c-9d3d-be096fc11cc2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{dd19b626-dbf4-4f7c-9d3d-be096fc11cc2}">
+		<property name="parameterType">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
