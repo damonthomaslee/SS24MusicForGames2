@@ -55,6 +55,7 @@
 			<destination>{8c70dbb3-47e7-420a-8e45-8b1fc1d0f181}</destination>
 			<destination>{7c8ba532-ede0-4663-a8ef-d16e887ac0ca}</destination>
 			<destination>{96331210-da6b-4047-a94d-76888b48101b}</destination>
+			<destination>{fa844cf0-448d-4c19-9cfe-7b783d079a28}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{312fada6-72aa-4c90-b5b3-2b6bf3a9d422}</destination>
@@ -224,6 +225,11 @@
 	<object class="AutomationTrack" id="{96331210-da6b-4047-a94d-76888b48101b}">
 		<relationship name="automator">
 			<destination>{f3920651-3c46-44b9-b062-d8f18d231102}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{fa844cf0-448d-4c19-9cfe-7b783d079a28}">
+		<relationship name="automator">
+			<destination>{cf0f13c7-74a5-4f9f-86b5-3477e60717e9}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{312fada6-72aa-4c90-b5b3-2b6bf3a9d422}">
