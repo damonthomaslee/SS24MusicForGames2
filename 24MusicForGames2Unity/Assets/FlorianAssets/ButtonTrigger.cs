@@ -7,7 +7,6 @@ public class ButtonTrigger : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject helperPrefab;
-    public float lastTrigger = 0f;
     public bool canTrigger = true;
     public Material mat;
 
