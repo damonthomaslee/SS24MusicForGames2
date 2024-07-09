@@ -30,13 +30,12 @@ public class FlorianAudioManager : MusicManager
         if (volume.profile.TryGet<LensDistortion>(out ld))
         {
             ld.intensity.value = 0f;
-
-
         }
     }
 
     void Update()
     {
+
         float masterVolume = 0.0f;
         //masterBus.getVolume(out masterVolume);
 
@@ -58,11 +57,12 @@ public class FlorianAudioManager : MusicManager
                 value = 0f;
             }
 
-            Debug.Log(value);
+            //Debug.Log(value);
 
             ld.intensity.value = (ld.intensity.value * (monitoringBuffer - 1) + (- 1 * (value * 5))) / monitoringBuffer;
             //ld.intensity = n;
         }
+
     }
 
     public static float Sigmoid(float value)

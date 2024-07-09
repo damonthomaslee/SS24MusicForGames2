@@ -63,7 +63,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{ca5caf2c-d9e1-4afd-9da8-8724da9d5ca8}">
 		<property name="maximumDistance">
-			<value>60</value>
+			<value>100</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{587cecac-ab22-4ac3-8324-3fde91fb89a5}" />
@@ -407,7 +407,7 @@
 	<object class="MixerBusFader" id="{5429aaa3-a8a2-4ee3-9008-c72811684179}" />
 	<object class="SpatialiserEffect" id="{325eb5ba-ae09-4bc1-8cc5-1a2521688ce7}">
 		<property name="maximumDistance">
-			<value>60</value>
+			<value>100</value>
 		</property>
 		<property name="userStereoSeparation">
 			<value>72</value>
