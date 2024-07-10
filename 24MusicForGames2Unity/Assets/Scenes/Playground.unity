@@ -163,10 +163,11 @@ MonoBehaviour:
       Data4: 730631924
     Path: event:/Mads/TSawEvent
   meshObject: {fileID: 200664405}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &200664407
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -293,10 +294,11 @@ MonoBehaviour:
       Data4: 1104704946
     Path: event:/Mads/PercEvent
   meshObject: {fileID: 269954499}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &269954501
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -646,10 +648,11 @@ MonoBehaviour:
       Data4: -748894471
     Path: event:/Mads/ChimesEvent
   meshObject: {fileID: 396146187}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &396146189
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -841,10 +844,11 @@ MonoBehaviour:
       Data4: -339405578
     Path: event:/Mads/SlurpEvent
   meshObject: {fileID: 585529764}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &585529766
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1311,10 +1315,11 @@ MonoBehaviour:
       Data4: 892473278
     Path: event:/Mads/PuzzleEvent
   meshObject: {fileID: 879540566}
-  deformationMultiplier: 10
+  deformationMultiplier: 100
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &879540568
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1511,19 +1516,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
   m_PrefabInstance: {fileID: 60889539378096550}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &998772389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998772384}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
 --- !u!114 &998772390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,10 +1770,11 @@ MonoBehaviour:
       Data4: 344544650
     Path: event:/Mads/ClicksEvent
   meshObject: {fileID: 1053617444}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &1053617446
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2058,6 +2051,137 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcb80b564cbc946a0a7ef79c59a62327, type: 3}
+--- !u!1 &1453424636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1453424640}
+  - component: {fileID: 1453424639}
+  - component: {fileID: 1453424638}
+  - component: {fileID: 1453424637}
+  - component: {fileID: 1453424641}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!135 &1453424637
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453424636}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1453424638
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453424636}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1453424639
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453424636}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1453424640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453424636}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.33719817, y: 1.4638692, z: 9.52818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453424641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453424636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c83d6f2ff7c419fb5848394ddfe2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventPath:
+    Guid:
+      Data1: 2136262627
+      Data2: 1307020640
+      Data3: 1565368474
+      Data4: -339405578
+    Path: event:/Mads/SlurpEvent
+  meshObject: {fileID: 1453424636}
+  deformationMultiplier: 1000
+  smoothingFactor: 0.9
+  windowSize: 512
+  windowShape: 0
+  updateInterval: 0.1
 --- !u!1 &1745931541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,10 +2222,11 @@ MonoBehaviour:
       Data4: -957537268
     Path: event:/Mads/TonalEvent
   meshObject: {fileID: 1745931541}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &1745931543
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2398,10 +2523,11 @@ MonoBehaviour:
       Data4: 1701192973
     Path: event:/Mads/VoicesEvent
   meshObject: {fileID: 1776285798}
-  deformationMultiplier: 10
+  deformationMultiplier: 100
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &1776285800
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2528,10 +2654,11 @@ MonoBehaviour:
       Data4: -539594240
     Path: event:/Mads/GrowlEvent
   meshObject: {fileID: 1866162076}
-  deformationMultiplier: 10
+  deformationMultiplier: 1000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &1866162078
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2744,10 +2871,11 @@ MonoBehaviour:
       Data4: 672236215
     Path: event:/Mads/BirdsEvent
   meshObject: {fileID: 1897893253}
-  deformationMultiplier: 10
+  deformationMultiplier: 10000
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3139,10 +3267,11 @@ MonoBehaviour:
       Data4: -1831935518
     Path: event:/Mads/PadEvent
   meshObject: {fileID: 2122392241}
-  deformationMultiplier: 10
+  deformationMultiplier: 2.5
   smoothingFactor: 0.9
   windowSize: 512
   windowShape: 0
+  updateInterval: 0.1
 --- !u!135 &2122392243
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3301,9 +3430,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       insertIndex: -1
       addedObject: {fileID: 998772390}
-    - targetCorrespondingSourceObject: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 998772389}
   m_SourcePrefab: {fileID: 100100000, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
 --- !u!114 &135756641613574975 stripped
 MonoBehaviour:
@@ -3631,3 +3757,4 @@ SceneRoots:
   - {fileID: 1745931546}
   - {fileID: 200664410}
   - {fileID: 1776285803}
+  - {fileID: 1453424640}
