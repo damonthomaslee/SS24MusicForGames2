@@ -64,6 +64,7 @@ Material:
     - _OcclusionStrength: 0
     - _Parallax: 0.02
     - _Smoothness: 0.477
+    - _WorkflowMode: 1
     m_Colors:
     - _BaseColor: {r: 0.27038085, g: 0.6601244, b: 0.8773585, a: 1}
     - _Color: {r: 0.27038082, g: 0.66012436, b: 0.8773585, a: 1}

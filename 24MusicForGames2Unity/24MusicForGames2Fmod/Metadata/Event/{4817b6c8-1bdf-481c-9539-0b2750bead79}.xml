@@ -140,7 +140,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>4.0410000000000004</value>
+			<value>4</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{8d062d7b-40bf-41f6-9105-8757481aa30e}</destination>
