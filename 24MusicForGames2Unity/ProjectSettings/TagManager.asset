@@ -7,6 +7,9 @@ TagManager:
   - CinemachineTarget
   - Tile
   - MAR
+  - Attacker
+  - Helper
+  - Sheriff
   layers:
   - Default
   - TransparentFX

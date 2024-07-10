@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5eb0356c-11f5-429d-9e49-bb3fb05cbb3f}">
+		<property name="name">
+			<value>Florian HummingIndex</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f4359f79-1f3b-4c4d-a925-52058696e964}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92e012bb-9698-43e6-be66-348719a5accf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92e012bb-9698-43e6-be66-348719a5accf}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
