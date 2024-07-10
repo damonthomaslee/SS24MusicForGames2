@@ -30,7 +30,7 @@ public class SceneIntroManager : MonoBehaviour
     void ShowIntro()
     {
         introCanvas.gameObject.SetActive(true);
-        introText.text = "Walk through the doors"; // Set the message
+        introText.text = "Choose a door, and walk through it"; // Set the message
     }
 
     void HideIntro()

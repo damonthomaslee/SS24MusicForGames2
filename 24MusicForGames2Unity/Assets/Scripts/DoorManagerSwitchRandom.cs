@@ -54,7 +54,7 @@ public class DoorManagerSwitchRandom : MonoBehaviour
             {
                 doorSceneMap[assignment.door] = assignment.sceneIndex;
                 doorSfxMap[assignment.door] = assignment.sfx;
-                Debug.Log($"Assigned Door: {assignment.door.name}, Scene Index: {assignment.sceneIndex}, SFX: {assignment.sfx}");
+                //Debug.Log($"Assigned Door: {assignment.door.name}, Scene Index: {assignment.sceneIndex}, SFX: {assignment.sfx}");
             }
         }
     }

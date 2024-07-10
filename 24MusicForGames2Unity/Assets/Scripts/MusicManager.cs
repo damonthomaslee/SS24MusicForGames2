@@ -20,7 +20,7 @@ public class MusicManager : MonoBehaviour
         // Set this instance as the singleton instance
         instance = this;
         DontDestroyOnLoad(gameObject);
-        Debug.Log("MusicManager instance created.");
+       // Debug.Log("MusicManager instance created.");
     }
 
     void OnDestroy()
