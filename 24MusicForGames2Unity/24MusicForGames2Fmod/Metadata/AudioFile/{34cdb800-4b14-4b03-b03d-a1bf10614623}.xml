@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{34cdb800-4b14-4b03-b03d-a1bf10614623}">
+		<property name="assetPath">
+			<value>tonalGrains1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>20</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ac2c6fc1-dcec-489d-84f4-a3e7c32753b5}</destination>
+		</relationship>
+	</object>
+</objects>
