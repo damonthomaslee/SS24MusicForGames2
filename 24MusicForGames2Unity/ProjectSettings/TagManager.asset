@@ -6,13 +6,12 @@ TagManager:
   tags:
   - CinemachineTarget
   - Tile
-  - Door
   - MAR
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - PostProcessing
+  - 
   - Water
   - UI
   - 

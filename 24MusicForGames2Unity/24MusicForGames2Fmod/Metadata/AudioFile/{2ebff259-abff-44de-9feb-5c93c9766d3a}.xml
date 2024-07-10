@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2ebff259-abff-44de-9feb-5c93c9766d3a}">
+		<property name="assetPath">
+			<value>shaker-neu-2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.1920000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ac2c6fc1-dcec-489d-84f4-a3e7c32753b5}</destination>
+		</relationship>
+	</object>
+</objects>
