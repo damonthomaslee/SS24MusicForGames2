@@ -6,17 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Playground.unity
-    guid: 707acc8dffb72b144bb1ffbe1c965f3d
-  - enabled: 1
-    path: Assets/Scenes/LeeTest.unity
-    guid: d500335fd2b8c4408a4e047dc286d6cf
-  - enabled: 1
     path: Assets/Scenes/HubWorld.unity
     guid: f48012a4b3ad74cc3963577dd92a4587
   - enabled: 1
     path: Assets/Scenes/fake3.unity
     guid: 5aee5dfde57fc435d9ff4eabf4177f17
+  - enabled: 1
+    path: Assets/Scenes/Cajus.unity
+    guid: d500335fd2b8c4408a4e047dc286d6cf
   - enabled: 1
     path: Assets/Scenes/fake4.unity
     guid: 68d6dcf5681e44474b455cd1aedace54
@@ -29,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fake7.unity
     guid: 530beb07a055641779d8a7c6edcabb71
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: 707acc8dffb72b144bb1ffbe1c965f3d
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 47cfeabd4aad14857a35d7de853dd92f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58666072467ef480090167aec54315da, type: 2}
