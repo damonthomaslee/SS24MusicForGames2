@@ -769,9 +769,9 @@
 			<destination>{f103d4fa-8236-4f2c-98e1-b310854479ff}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{59b007b2-3305-4391-9b91-35c7d61984a4}</destination>
 			<destination>{26d7c50e-8ff6-4222-a9de-b21c31378649}</destination>
 			<destination>{3565a65b-3e1f-43f3-8933-bdd2cac1a16e}</destination>
+			<destination>{f2054e29-7eb0-44bc-89bc-c5dacd9344e0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{b1be5e82-f03c-40d5-a191-6d993145f9ad}" />
@@ -885,7 +885,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{21090cd1-68d0-4556-b8b0-918c69155504}">
@@ -901,7 +901,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8e1632d8-c266-4407-aad7-008091974e52}">
@@ -910,14 +910,6 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{59b007b2-3305-4391-9b91-35c7d61984a4}">
-		<property name="position">
-			<value>2</value>
-		</property>
-		<property name="value">
-			<value>3.81469727e-06</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{26d7c50e-8ff6-4222-a9de-b21c31378649}">
@@ -936,6 +928,14 @@
 			<value>-75</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{f2054e29-7eb0-44bc-89bc-c5dacd9344e0}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{398952c3-069b-4822-ab16-58ef6b0c7386}">
 		<property name="position">
 			<value>2</value>
@@ -949,7 +949,7 @@
 			<value>3</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5cf428dd-3adc-40f1-a568-f39e536034e1}">
