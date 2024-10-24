@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SimpleDoorTrigger : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class SimpleDoorTrigger : MonoBehaviour
             if (doorManager != null)
             {
                 doorManager.HandleDoorTrigger(gameObject);
+                SceneTracker.Instance.SetLastDoorForScene(SceneManager.GetActiveScene().name, gameObject.name);
             }
             else
             {
